@@ -27,12 +27,10 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
-              <div className="w-10 h-10 bg-emerald-600 rounded-xl flex items-center justify-center">
-                <span className="text-white font-bold text-lg">T</span>
-              </div>
+              
               <div>
                 <h1 className="text-xl font-semibold text-gray-900">Tempe Ibu Rotin</h1>
-                <p className="text-sm text-gray-500">Tempe Tradisional Berkualitas</p>
+                <p className="text-sm text-emerald-500">Tempe Tradisional Berkualitas</p>
               </div>
             </div>
             <Badge className="bg-emerald-50 text-emerald-700 border-emerald-200 hover:bg-emerald-50">
@@ -240,12 +238,10 @@ export default function HomePage() {
       <footer className="bg-gray-900 text-white py-12">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <div className="flex items-center justify-center gap-3 mb-6">
-            <div className="w-10 h-10 bg-emerald-600 rounded-xl flex items-center justify-center">
-              <span className="text-white font-bold text-lg">T</span>
-            </div>
-            <span className="text-2xl font-bold">Tempe Ibu Rotin</span>
+            
+            
           </div>
-          <p className="text-gray-400 mb-6 text-lg">Tempe tradisional berkualitas tinggi untuk keluarga Indonesia</p>
+          
           <p className="text-gray-500">© 2025 Tempe Ibu Rotin. Semua hak dilindungi.</p>
         </div>
       </footer>
