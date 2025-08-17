@@ -15,10 +15,7 @@ export default function HomePage() {
   }
 
   const handleLocationClick = () => {
-    const address =
-      "Gg. H.Zaenab Blok Kasab Kidul, Karangampel Kidul, Kec. Karangampel, Kabupaten Indramayu, Jawa Barat 45283"
-    const encodedAddress = encodeURIComponent(address)
-    window.open(`https://www.google.com/maps/search/?api=1&query=${encodedAddress}`, "_blank")
+    window.open(`https://maps.app.goo.gl/xyn3r6MZbBKx8fNB9`, "_blank")
   }
 
   return (
@@ -180,13 +177,13 @@ export default function HomePage() {
                 </div>
                 <h4 className="text-2xl font-bold text-gray-900 mb-4">Kontak</h4>
                 <div className="text-center py-8">
-                <p className="text-2xl font-bold text-emerald-600 mb-8">081313294565</p>
-                <Button
-                  onClick={handleWhatsApp}
-                  className="w-full bg-emerald-600 hover:bg-emerald-700 text-white py-4 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all"
-                >
-                  WhatsApp
-                </Button>
+                  <p className="text-2xl font-bold text-emerald-600 mb-8">081313294565</p>
+                  <Button
+                    onClick={handleWhatsApp}
+                    className="w-full bg-emerald-600 hover:bg-emerald-700 text-white py-4 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all"
+                  >
+                    WhatsApp
+                  </Button>
                 </div>
               </div>
             </Card>
@@ -237,10 +234,7 @@ export default function HomePage() {
 
       <footer className="bg-gray-900 text-white py-12">
         <div className="max-w-6xl mx-auto px-6 text-center">
-          <div className="flex items-center justify-center gap-3 mb-6">
-            
-            
-          </div>
+          
           
           <p className="text-gray-500">© 2025 Tempe Ibu Rotin. Semua hak dilindungi.</p>
         </div>
