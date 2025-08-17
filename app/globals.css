@@ -3,6 +3,12 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@theme inline {
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-poppins);
+  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
 :root {
   /* Updated color tokens to match warm Indonesian tempe business theme */
   --background: oklch(1 0 0); /* Pure white background */
