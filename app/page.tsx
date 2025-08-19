@@ -41,7 +41,7 @@ export default function HomePage() {
       <section className="relative h-screen bg-gray-900">
         <div className="absolute inset-0">
           <img
-            src="/indonesian-tempe-making.png"
+            src="/profile.jpeg"
             alt="Tempe tradisional buatan Ibu Rotin"
             className="w-full h-full object-cover"
           />
@@ -55,7 +55,7 @@ export default function HomePage() {
               <span className="block text-emerald-400">Berkualitas Tinggi</span>
             </h2>
             <p className="text-xl md:text-2xl mb-12 leading-relaxed opacity-90">
-              Dibuat dengan resep turun temurun dan bahan-bahan pilihan terbaik untuk keluarga Indonesia.
+              Dibuat dengan resep turun temurun dan bahan-bahan pilihan terbaik.
             </p>
             <Button
               onClick={handleWhatsApp}
@@ -83,7 +83,7 @@ export default function HomePage() {
               <div className="grid md:grid-cols-2 gap-0">
                 <div className="aspect-square">
                   <img
-                    src="/placeholder-78xq7.png"
+                    src="/product.jpeg"
                     alt="Tempe segar berkualitas tinggi"
                     className="w-full h-full object-cover"
                   />
@@ -135,12 +135,14 @@ export default function HomePage() {
               <h3 className="text-4xl font-bold text-gray-900 mb-6">Tentang</h3>
               <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
                 <p>
-                  Dengan pengalaman 65 tahun dalam membuat tempe tradisional, Ibu Rotin telah menjadi pilihan utama
-                  masyarakat Karangampel untuk mendapatkan tempe berkualitas tinggi.
+                  Sejak 65 tahun yang lalu, tempe Ibu Rotin telah hadir sebagai bagian dari kehidupan masyarakat 
+                  Karangampel. Berawal dari proses pembuatan tempe secara tradisional di rumah sederhana, usaha 
+                  ini terus berkembang hingga menjadi pilihan utama bagi banyak keluarga.
                 </p>
                 <p>
-                  Setiap hari, kami memproduksi tempe segar menggunakan kedelai pilihan dan proses fermentasi yang telah
-                  teruji. Komitmen kami adalah memberikan produk terbaik untuk keluarga Indonesia.
+                  Dengan tetap mempertahankan resep asli dan menggunakan kedelai pilihan, tempe Ibu Rotin 
+                  senantiasa menjaga cita rasa khas yang diwariskan turun-temurun. Hingga hari ini, setiap potong 
+                  tempe yang diproduksi adalah wujud komitmen kami untuk menghadirkan kualitas yang terbaik.
                 </p>
               </div>
               <div className="mt-8 p-6 bg-emerald-50 rounded-2xl border border-emerald-100">
@@ -154,7 +156,7 @@ export default function HomePage() {
             </div>
             <div className="order-1 lg:order-2">
               <div className="rounded-3xl overflow-hidden shadow-2xl">
-                <img src="/indonesian-tempe-woman.png" alt="Ibu Rotin sedang membuat tempe" className="w-full h-auto" />
+                <img src="/placeholder-78xq7.png" alt="Ibu Rotin sedang membuat tempe" className="w-full h-auto" />
               </div>
             </div>
           </div>
